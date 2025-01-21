@@ -1,0 +1,21 @@
+{
+	"name": "wuyan/yii2-aliyun-oss",
+	"description": "Yii2 warper for aliyun oss",
+	"type": "library",
+	"require": {
+		"aliyuncs/oss-sdk-php": "^2.7",
+		"php": ">=8.2"
+	},
+	"license": "GPL",
+	"autoload": {
+		"psr-4": {
+			"wuyan\\aliyunoss\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "WU Yan",
+			"email": "wooyen@163.com"
+		}
+	]
+}
