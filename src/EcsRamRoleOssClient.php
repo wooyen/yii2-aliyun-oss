@@ -5,7 +5,6 @@ namespace yii\aliyunoss;
 use AlibabaCloud\Credentials\Credential;
 use AlibabaCloud\Credentials\Credential\Config;
 use OSS\OssClient;
-use OSS\Credentials\CredentialsProvider;
 use OSS\Credentials\StaticCredentialsProvider;
 
 class EcsRamRoleOssClient extends BaseOssClient
