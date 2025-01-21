@@ -3,8 +3,15 @@
 	"description": "Yii2 warper for aliyun oss",
 	"type": "library",
 	"require": {
+		"php": ">=8.2",
 		"aliyuncs/oss-sdk-php": "^2.7",
-		"php": ">=8.2"
+		"yiisoft/yii2": "~2.0.51"
+	},
+	"require-dev": {
+		"alibabacloud/credentials": "^1.2"
+	},
+	"suggest": {
+		"alibabacloud/credentials": "Alibaba Cloud credentials SDK"
 	},
 	"license": "GPL",
 	"autoload": {
@@ -17,5 +24,16 @@
 			"name": "WU Yan",
 			"email": "wooyen@163.com"
 		}
-	]
+	],
+	"repositories": {
+		"asset-packagist": {
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true
+		}
+	}
 }
