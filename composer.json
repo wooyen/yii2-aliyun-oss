@@ -9,7 +9,7 @@
 	"license": "GPL",
 	"autoload": {
 		"psr-4": {
-			"wuyan\\aliyunoss\\": "src/"
+			"yii\\aliyunoss\\": "src/"
 		}
 	},
 	"authors": [
