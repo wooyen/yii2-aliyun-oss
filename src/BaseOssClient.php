@@ -7,7 +7,7 @@ use yii\base\Exception;
 
 class BaseOssClient extends Component
 {
-	private $_ossClient;
+	protected $_ossClient;
 	public $accessKeyId;
 	public $accessKeySecret;
 	public $endpoint;

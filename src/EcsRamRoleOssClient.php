@@ -14,10 +14,10 @@ class EcsRamRoleOssClient extends BaseOssClient
 	public function init()
 	{
 		parent::init();
-		$credential = new Credential(new Config([
+		$credential = new Credential([
 			'type' => 'ecs_ram_role',
 			'roleName' => $this->roleName,
-		]));
+		]);
 		$provider = new StaticCredentialsProvider(
 			$credential->getAccessKeyId(),
 			$credential->getAccessKeySecret(),
