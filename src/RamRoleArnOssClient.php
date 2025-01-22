@@ -33,6 +33,8 @@ class RamRoleArnOssClient extends BaseOssClient
 			'provider' => $provider,
 			'endpoint' => $this->endpoint,
 			'signatureVersion' => OssClient::OSS_SIGNATURE_VERSION_V4,
+			'region' => $this->region,
 		]);
 	}
 }
+

@@ -11,7 +11,7 @@ class BaseOssClient extends Component
 	public $accessKeyId;
 	public $accessKeySecret;
 	public $endpoint;
-
+	public $region;
 	public function init()
 	{
 		if (static::class === self::class) {
