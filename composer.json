@@ -1,5 +1,5 @@
 {
-	"name": "wuyan/yii2-aliyun-oss",
+	"name": "wooyen/yii2-aliyun-oss",
 	"description": "Yii2 warper for aliyun oss",
 	"type": "library",
 	"require": {
